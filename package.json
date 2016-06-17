@@ -1,0 +1,16 @@
+{
+  "title": "xkcd Companion",
+  "name": "xkcd-companion",
+  "version": "0.0.1",
+  "description": "A helpful add-on for xkcd fans",
+  "main": "index.js",
+  "author": "Sean Yeh",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ]
+}
