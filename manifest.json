@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "xkcd-companion",
+  "version": "0.0.2",
+
+  "description": "A helpful addon for xkcd fans",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.xkcd.com/*"],
+      "js": ["data/inject.js"]
+    }
+  ]
+
+}
